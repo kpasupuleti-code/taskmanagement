@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; /* Ensures body takes up full viewport height */
+    margin: 0;
+}
+/*Registration box style*/
+.registrationbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:300px;
+    background-color: rgba(137, 255, 231, 0.871);
+    border : 1px solid rgb(190, 184, 184);
+    border-radius: 5%;
+    margin:150px;
+}
+#usernamebox{
+    margin:8px 0px 8px 0px;
+    border : 1px solid rgba(236, 236, 236, 0.927); 
+    border-radius: 4%;
+    outline: none;
+    padding:3px;
+}
+#passwordbox{
+    margin:8px 0px 8px 0px;
+    border : 1px solid rgba(236, 236, 236, 0.927); 
+    border-radius: 4%;
+    outline: none;
+    padding:3px;
+}
+#registerbutton{
+    padding:3px;
+    margin-left: 45px;
+    width:60px;
+}
+/* login page style*/
+.loginbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:300px;
+    background-color: rgba(137, 255, 231, 0.871);
+    border : 1px solid rgb(190, 184, 184);
+    border-radius: 5%;
+    margin:150px;
+}
+#loginnamebox{
+    margin:8px 0px 8px 0px;
+    border : 1px solid rgba(236, 236, 236, 0.927); 
+    border-radius: 4%;
+    outline: none;
+    padding:3px;
+}
+#passwordbbox{
+    margin:8px 0px 8px 0px;
+    border : 1px solid rgba(236, 236, 236, 0.927); 
+    border-radius: 4%;
+    outline: none;
+    padding:3px;
+}
+#loginbutton{
+    padding:3px;
+    margin-top: 10px;
+    width:60px;
+}
+/*Tasksbox*/
+.container {
+    display: flex;
+    justify-content: space-between; 
+    padding:10px;
+  }
+.tasksbox{
+    background-color: rgba(73, 172, 172, 0.918);
+    width: 50%; /* Make it take up 60% of the width */
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.features{
+    background-color: rgba(172, 73, 73, 0.918);
+    padding: 20px;
+    width:25%; /* Make it take up 35% of the width */
+    margin-right: 180px;
+    box-sizing: border-box;
+}
+/*table*/
+table {
+    width: 100%; /* Table takes full width of container */
+    table-layout: fixed; /* Fixes column widths */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #eeeeee; /* Adds border */
+    padding: 10px; /* Adds padding */
+    text-align: left; /* Aligns text to the left */
+    white-space: normal; /* Allows wrapping */
+    overflow-wrap: break-word; /* Breaks long words */
+}
+
+th {
+    background-color:rgba(73, 172, 172, 0.918);; /* Light background for headers */
+}
+td {
+    max-width: 200px; /* Maximum width of a cell */
+}
+#st{
+    margin-left: 0px;
+}
+#ta{
+    margin-left: 40px;
+    width: 300px;
+    height: 250px;
+}
