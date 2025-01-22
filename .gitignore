@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn.lock
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
