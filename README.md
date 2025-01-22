@@ -1,0 +1,1 @@
+This project aims to build foundational backend development skills by implementing key concepts such as RESTful APIs, database operations, and server-side logic. Though it's a work in progress, the project reflects my learning journey and serves as a stepping stone toward backend proficiency.
